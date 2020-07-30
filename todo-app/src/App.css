@@ -32,7 +32,7 @@ body {
 .todo-item{
   background-color: white;
   width: 200px;
-  height: 150px;
+  height: max-content;
   box-shadow: 0 20px 20px -10px rgb(233, 211, 14);
   text-align: center;
   border-radius: 6px;
@@ -42,10 +42,21 @@ body {
   background-color: rgb(255, 5, 5);
   color: white;
   border-radius: 6px;
-  margin-bottom: 10px
 }
 
-.urgent-input{
+.edit-button{
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+}
+
+.close-button {
+  background-color: rgb(255, 5, 5);
+  color: white;
+  font-weight: bold;
+}
+
+.input-group{
   display: flex;
   justify-content: center;
 }
